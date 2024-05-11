@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <title>Tunescape</title>
+    <link rel="icon" type="image/x-icon" href="..\Tunescape Images\Tunescape Final Logo.png">
+    <link rel="stylesheet" type="text/css" href="..\CSS Folder\1989playlist.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+	
+	<style>
+	
+	
+	header .song_side .scrollable .playlist_header { 
+			height: 283.6px;  
+			border-bottom: 2.2px solid purple; 
+			border-radius: 5px; 
+			background-color: pink;
+			background-image: linear-gradient(to top, purple 0%, transparent 100%); 
+			cursor: default;
+			margin-left:10px;
+			margin-right: 10px;
+			object-align: center;
+			}
+	
+	
+	</style>
+	
+	
+</head>
+
+<body>
+<header>
+    
+	
+	
+	
+	
+	 <div class="menu_side"><a style="text-decoration:none;"href="..\HTML Folder\Tunescape.html">
+ <div class="logo">
+        <img src="..\Tunescape Images\Tunescape Final Logo.png" alt="Company Logo" class="company-logo">
+        <h2>Tunescape</h2>
+    </div></a>
+	<div class="playlist">
+		
+		<a style="text-decoration: none;"href="..\HTML Folder\Tunescape.html"><h4><span></span><i class="bi bi-house-door"></i> Home</h4></a>
+		<h4><span></span><i class="bi bi-search"></i> Search</h4>
+		<h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> My Library</h4>
+	</div>
+	<div class="menu_song">
+	
+		<a style="text-decoration:none;"href="..\HTML Folder\ChillVibesPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\ChillVibesPlaylist.jpg" alt="Taylor">
+			<h5 style="color: white;">
+				Chill Vibes
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>	
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="1"></i>
+			
+		</li></a>
+		
+		
+		<a style="text-decoration:none;"href="..\HTML Folder\RoadTripTunesPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\RoadTripPlaylist.png" alt="Taylor">
+			<h5 style="color: white;">
+				Road Trip Tunes
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="2"></i>
+			
+		</li></a>
+		
+		
+		<a style="text-decoration:none;"href="..\HTML Folder\MorningMotivationPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\MorningMusicPlaylist.jpg" alt="Taylor">
+			<h5 style="color: white;">
+				Morning Motivation
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>	
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="3"></i>
+			
+		</li></a>
+		
+	</div>
+ </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    <div class="song_side">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button id="previous" type="button"><i style="margin-left:-6px;" class="bi bi-arrow-left-circle-fill"></i></button>
+                <button id="next" type="button"><i style="margin-left:-6px;" class="bi bi-arrow-right-circle-fill"></i></button>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="..\HTML Folder\Tunescape.html">Discover</a>
+                    </li>
+                    <li>
+                        <a href="..\HTML Folder\Support.html">Support</a>
+                    </li>
+                    <li>
+                        <a href="..\HTML Folder\Premium.html">Premium</a>
+                    </li>
+                    <li class="divider">|</li>
+                    <li>
+                        <a href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Log In</button>
+            </div>
+        </div>
+        <div style="height: 555.852px;" class="scrollable">
+            <li class="playlist_header">
+                <img src="..\Tunescape Images\ChillVibesPlaylist.jpg" alt="Taylor">
+                <h5>
+                    <div class="pre-subtitle">Playlist</div>
+                    Chill Vibes
+                    <div class="subtitle">Jacob</div>
+                </h5>
+            </li>
+            <div class="song-list-header">
+                <h5>
+                    #
+                </h5>
+                <div class="subtitle">Title</div>
+                <div class="clock"><i class="bi bi-clock"></i></div>
+            </div>
+          
+            <div style="padding-bottom: 200px;" class="song_list">
+                <ul style="margin-left: -43px; margin-top: 0px; margin-bottom: 0px;">
+                    <li class="songItem" id="song1">
+                        <audio id="audio1file">
+                            <source src="C:\Users\Jacob\Tunescape Website\Tunescape Audios\Coldplay - A Sky Full of Stars (Lyrics).mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <h6 style="margin-left:-5px;">1</h6>
+                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                        <h5>
+                           A Sky Full of Stars
+                            <div class="subtitle">Coldplay</div>
+                        </h5>
+                        <h3>4:24</h3>
+                    </li>
+                    <ul style="margin-left: -43px; margin-top: 0px; margin-bottom: 0px;">
+                        <li class="songItem" id="song2">
+                            <audio id="audio2file">
+                                <source src="..\Tunescape Audios\Rema, Selena Gomez - Calm Down (Official Music Video).mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <h6 style="margin-left:0px;">2</h6>
+                            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                            <h5>
+                                Calm Down  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+                                <div class="subtitle">Selena Gomez</div>
+                            </h5>
+                            <h3>3:59</h3>
+                        </li>
+                    </ul>
+                </ul>
+            
+            <li class="songItem">
+                <h6 style="margin-left:-7px; padding-right: 0px;">3</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                <h5>
+                    Riptide
+                    <div class="subtitle">Vance Joy</div>
+                </h5>
+                <h3>3:24</h3>
+            </li>
+			
+            <li class="songItem">
+                <h6 style="margin-left:-7px; padding-right: 0px;">4</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                <h5>
+                    Sober
+                    <div class="subtitle">Childish Gambino</div>
+                </h5>
+                <h3>4:10</h3>
+            </li>
+			
+            <li class="songItem">
+                <h6 style="margin-left:-7px; padding-right: 0px;">5</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                <h5>
+                    Location
+                    <div class="subtitle">Khalid</div>
+                </h5>
+                <h3>3:38</h3>
+            </li>
+			
+            <li class="songItem">
+                <h6 style="margin-left:-7px; padding-right: 0px;">6</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                <h5>
+                    Better Together
+                    <div class="subtitle">Jack Johnson</div>
+                </h5>
+                <h3>3:27</h3>
+            </li>
+			
+			<li class="songItem">
+                <h6 style="margin-left:-7px; padding-right: 0px;">7</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                <h5>
+                    Redbone
+                    <div class="subtitle">Childish Gambino</div>
+                </h5>
+                <h3>5:27</h3>
+            </li>
+			
+			<li class="songItem">
+                <h6 style="margin-left:-7px; padding-right: 0px;">8</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                <h5>
+                    Island in the sun
+                    <div class="subtitle">Weezer</div>
+                </h5>
+                <h3>3:20</h3>
+            </li>
+			
+			<li class="songItem">
+                <h6 style="margin-left:-7px; padding-right: 0px;">9</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                <h5>
+                    Sunday Morning
+                    <div class="subtitle">Maroon 5</div>
+                </h5>
+                <h3>4:06</h3>
+            </li>
+			
+			<li class="songItem">
+                <h6 style="margin-left:-10px; padding-right: 0px;">10</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                <h5 style="margin-left: 12px;">
+                    Sweater Weather
+                    <div class="subtitle">The Neighbourhood</div>
+                </h5>
+                <h3>4:00</h3>
+            </li>
+			
+			<li class="songItem">
+                <h6 style="margin-left:-10px; padding-right: 0px;">11</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                <h5 style="margin-left: 12px;">
+                    Dreams
+                    <div class="subtitle">Fleetwood Mac</div>
+                </h5>
+                <h3>4:14</h3>
+            </li>
+			
+			<li class="songItem">
+                <h6 style="margin-left:-10px; padding-right: 0px;">12</h6>
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                <h5 style="margin-left: 12px;">
+                    Walking on a Dream
+                    <div class="subtitle">Empire of the Sun</div>
+                </h5>
+                <h3>3:18</h3>
+            </li>
+			
+			
+			
+			
+			
+        </div>
+    </div>
+	</div>
+    <div class="master_play">
+        <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+        <img src="..\Tunescape Images\ChillVibesPlaylist.jpg" alt="ChillVibes" id="masterImage">
+        <h5 style="margin-top: 7px;"id="masterTitle">Love Story</h5>
+        <div class="subtitle" id="masterSubtitle"style="color: #4c5262; font-weight: bold; margin-bottom: 13px; margin-left: -143px; margin-right: 75px; padding-top: 30px;font-size: 12.1px;">Taylor Swift</div>
+        <div class="icon">
+            <i class="bi bi-skip-start-fill"></i>
+            <i class="bi bi-play-fill" id="playPause"></i>
+            <i class="bi bi-skip-end-fill"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot" id="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+        <div class="vol">
+            <i class="bi bi-volume-down-fill"></i>
+			
+            <input type="range" id="vol" min="0" value="30" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+        </div>
+		
+    </div>
+</header>
+
+<script src="../JavaScript Folder/Tunescape.js"></script>
+</body>
+</html>

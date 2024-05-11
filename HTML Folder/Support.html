@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <title>Tunescape</title>
+    <link rel="icon" type="image/x-icon" href="..\Tunescape Images\Tunescape Final Logo.png">
+    <link rel="stylesheet" type="text/css" href="..\CSS Folder\1989playlist.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+	
+	<style>
+	
+header .song_side .scrollable .playlist_header { 
+			height: 283.6px;
+			color: blue;  
+			border-bottom: 2.2px solid #5AA4D8; 
+			border-radius: 5px; 
+			background-color: black;
+			background-image: linear-gradient(to top, #5AA4D8 0%, transparent 100%); 
+			cursor: default;
+			margin-left:10px;
+			margin-right: 10px;
+			object-align: center;
+			}
+			
+			header .song_side .scrollable .playlist_header h5{ 
+			font-size: 60px;
+			margin-left:400px;
+			
+			}
+	
+	</style>
+</head>
+
+<body>
+<header>
+    
+	
+	
+	
+	
+	 <div class="menu_side"><a style="text-decoration:none;"href="..\HTML Folder\Tunescape.html">
+ <div class="logo">
+        <img src="..\Tunescape Images\Tunescape Final Logo.png" alt="Company Logo" class="company-logo">
+        <h2>Tunescape</h2>
+    </div></a>
+	<div class="playlist">
+		
+		<a style="text-decoration: none;"href="..\HTML Folder\Tunescape.html"><h4><span></span><i class="bi bi-house-door"></i> Home</h4></a>
+		<h4><span></span><i class="bi bi-search"></i> Search</h4>
+		<h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> My Library</h4>
+	</div>
+	<div class="menu_song">
+	
+		<a style="text-decoration:none;"href="..\HTML Folder\ChillVibesPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\ChillVibesPlaylist.jpg" alt="Taylor">
+			<h5 style="color: white;">
+				Chill Vibes
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>	
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="1"></i>
+			
+		</li></a>
+		
+		
+		<a style="text-decoration:none;"href="..\HTML Folder\RoadTripTunesPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\RoadTripPlaylist.png" alt="Taylor">
+			<h5 style="color: white;">
+				Road Trip Tunes
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="2"></i>
+			
+		</li></a>
+		
+		
+		<a style="text-decoration:none;"href="..\HTML Folder\MorningMotivationPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\MorningMusicPlaylist.jpg" alt="Taylor">
+			<h5 style="color: white;">
+				Morning Motivation
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>	
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="3"></i>
+			
+		</li></a>
+		
+	</div>
+ </div>
+	
+	
+	
+	
+    <div class="song_side">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button id="previous" type="button"><i style="margin-left:-6px;" class="bi bi-arrow-left-circle-fill"></i></button>
+                <button id="next" type="button"><i style="margin-left:-6px;" class="bi bi-arrow-right-circle-fill"></i></button>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="..\HTML Folder\Tunescape.html">Discover</a>
+                    </li>
+                    <li>
+                        <a style="font-size:24.2px; margin-left: -15px; color: #5AA4D8; display: inline-block; border-bottom: 2.2px solid #5AA4D8; border-radius: 4.4px; padding-left: 3.3px; padding-right: 3.3px; background-image: linear-gradient(to top, #5AA4D8 0%, transparent 20%); padding-bottom: 2.2px;" href="..\HTML Folder\Support.html">Support</a>
+                    </li>
+                    <li>
+                        <a href="..\HTML Folder\Premium.html">Premium</a>
+                    </li>
+                    <li class="divider">|</li>
+                    <li>
+                        <a href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Log In</button>
+            </div>
+        </div>
+        <div style="height: 555.852px;" class="scrollable">
+            <li class="playlist_header">
+                
+                <h5>
+                    
+                    Support
+                    
+                </h5>
+            </li>
+            
+    </div>
+	</div>
+    <div class="master_play">
+        <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+        <img src="..\Tunescape Images\1989Cover.png" alt="Taylor" id="masterImage">
+        <h5 style="margin-top: 7px;"id="masterTitle">Love Story</h5>
+        <div class="subtitle" id="masterSubtitle"style="color: #4c5262; font-weight: bold; margin-bottom: 13px; margin-left: -143px; margin-right: 75px; padding-top: 30px;font-size: 12.1px;">Taylor Swift</div>
+        <div class="icon">
+            <i class="bi bi-skip-start-fill"></i>
+            <i class="bi bi-play-fill" id="playPause"></i>
+            <i class="bi bi-skip-end-fill"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot" id="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+        <div class="vol">
+            <i class="bi bi-volume-down-fill"></i>
+			
+            <input type="range" id="vol" min="0" value="30" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+        </div>
+		
+    </div>
+</header>
+
+<script src="../JavaScript Folder/Tunescape.js"></script>
+
+</body>
+</html>

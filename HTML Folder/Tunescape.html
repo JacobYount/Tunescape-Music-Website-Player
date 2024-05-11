@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Tunescape">
+    <title>Tunescape</title>
+	<link rel="icon" type="image/x-icon" href="..\Tunescape Images\Tunescape Final Logo.png">
+	<link rel="stylesheet" type="text/css" href="..\CSS Folder\Tunescape.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
+	
+	<style>
+
+		
+    </style>
+</head>
+
+
+
+
+<body>
+<header>
+
+
+
+ <div class="menu_side"><a style="text-decoration:none;"href="..\HTML Folder\Tunescape.html">
+ <div class="logo">
+        <img src="..\Tunescape Images\Tunescape Final Logo.png" alt="Company Logo" class="company-logo">
+        <h2>Tunescape</h2>
+   </div> </a>
+	<div class="playlist">
+		
+		<a style="text-decoration: none;"href="..\HTML Folder\Tunescape.html"><h4><span></span><i class="bi bi-house-door"></i> Home</h4></a>
+		<h4><span></span><i class="bi bi-search"></i> Search</h4>
+		<h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> My Library</h4>
+	</div>
+	<div class="menu_song">
+	
+		<a style="text-decoration:none;"href="..\HTML Folder\ChillVibesPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\ChillVibesPlaylist.jpg" alt="Taylor">
+			<h5 style="color: white;">
+				Chill Vibes
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>	
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="1"></i>
+			
+		</li></a>
+		
+		
+		<a style="text-decoration:none;"href="..\HTML Folder\RoadTripTunesPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\RoadTripPlaylist.png" alt="Taylor">
+			<h5 style="color: white;">
+				Road Trip Tunes
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="2"></i>
+			
+		</li></a>
+		
+		
+		<a style="text-decoration:none;"href="..\HTML Folder\MorningMotivationPlaylist.html">
+		<li class="songItem">
+			
+			<img src="..\Tunescape Images\MorningMusicPlaylist.jpg" alt="Taylor">
+			<h5 style="color: white;">
+				Morning Motivation
+				<div style="color: #808080;" class="subtitle">Playlist • Jacob</div>
+			</h5>	
+				<i style="color: white;" class="bi playListPlay bi-play-circle-fill" id="3"></i>
+			
+		</li></a>
+		
+	</div>
+ </div>
+ 
+ 
+ 
+ <div class="song_side">
+ 
+ 
+ <div class="topbar">
+        <div class="prev-next-buttons">
+          <button id="previous" type="button"><i style="margin-left:-6px;" class="bi bi-arrow-left-circle-fill"></i></button>
+          <button id="next" type="button"><i style="margin-left:-6px;" class="bi bi-arrow-right-circle-fill"></i></button>
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <li>
+              <a style="font-size:24.2px; margin-left: -30px; color: #5AA4D8; display: inline-block; border-bottom: 2.2px solid #5AA4D8; border-radius: 4.4px; padding-left: 3.3px; padding-right: 3.3px; background-image: linear-gradient(to top, #5AA4D8 0%, transparent 20%); padding-bottom: 2.2px;" href="..\HTML Folder\Tunescape.html">Discover</a>
+            </li>
+            <li>
+              <a href="..\HTML Folder\Support.html">Support</a>
+            </li>
+            <li>
+              <a href="..\HTML Folder\Premium.html">Premium</a>
+            </li>
+            <li class="divider">|</li>
+            <li>
+              <a href="#">Sign Up</a>
+            </li>
+          </ul>
+          <button type="button">Log In</button>
+        </div>
+    </div>
+	  
+	  <div class="scrollable">
+	<div class="popular_artists">
+		<div class="h4">
+			<h4>Popular Artists</h4>
+			<div class="btn_s">
+				<i id="left_scroll_artist" class="bi bi-arrow-left-short"></i>
+				<i id="right_scroll_artist" class="bi bi-arrow-right-short"></i>
+			</div>
+		</div>
+		
+		<div class="popularartistlist">
+			<div class="item">
+				<img src="..\Tunescape Images\GrandeHeadshot.jpg" alt="Ariana Grande">
+				<div class="overlay">
+					<p class="artist-name">Ariana Grande</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\DrakeHeadshot.jpg" alt="Drake">
+				<div class="overlay">
+					<p class="artist-name">Drake</p>
+				</div>
+			</div>
+			
+			<div class="item"><a style="text-decoration: none; color: white;" href="..\HTML Folder\Marshmello.html">
+				<img src="..\Tunescape Images\MarshmelloHeadshot.jpg" alt="Marshmello">
+				<div class="overlay">
+					<p class="artist-name">Marshmello</p>
+				</div></a>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\KatyPerryHeadshot.png" alt="Katy Perry">
+				<div class="overlay">
+					<p class="artist-name">Katy Perry</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\WeekndHeadshot.png" alt="The Weeknd">
+				<div class="overlay">
+					<p class="artist-name">The Weeknd</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\SwitfHeadshot.png" alt="Taylor Swift">
+				<div class="overlay">
+					<p class="artist-name">Taylor Swift</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\TateMcraeHeadshot.png" alt="Tate Mcrae">
+				<div class="overlay">
+					<p class="artist-name">Tate Mcrae</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\JackHarlowHeadshot.png" alt="Jack Harlow">
+				<div class="overlay">
+					<p class="artist-name">Jack Harlow</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\TylaHeadshot.jpg" alt="Tyla">
+				<div class="overlay">
+					<p class="artist-name">Tyla</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\PostMaloneHeadshot.jpg" alt="Post Malone">
+				<div class="overlay">
+					<p class="artist-name">Post Malone</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\DuaLipaHeadshot.png" alt="Dua Lipa">
+				<div class="overlay">
+					<p class="artist-name">Dua Lipa</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="..\Tunescape Images\KidCudiHeadshot.jpg" alt="Kid Cudi">
+				<div class="overlay">
+					<p class="artist-name">Kid Cudi</p>
+				</div>
+			</div>
+			
+			<div style="margin-right: 0px;"class="item">
+				<img src="..\Tunescape Images\OliviaRodrigoHeadshot.jpg" alt="Olivia Rodrigo">
+				<div class="overlay">
+					<p class="artist-name">Olivia Rodrigo</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+	</div>
+	  
+	 <div class="tunescape-playlists">
+		<div style="display: flex; align-items: center; justify-content: space-between; font-size: 26.4px; margin-bottom:-5.5px;" class="h4">
+        <h2>Hit Albums</h2>
+			<div style="margin-right: 80.03px; margin-top:11px;" class="btn_s">
+				<i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+				<i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+			</div>
+		</div>
+
+        <div class="list">
+          <div class="item"><a style="text-decoration:none" href="..\HTML Folder\FutureNostalgiaAlbum.html">
+            <img src="..\Tunescape Images\FutureNostalgiaAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Future Nostalgia</h4>
+            <p>Dua Lipa</p></a>
+          </div>
+
+          <div class="item"><a style="text-decoration:none" href="..\HTML Folder\1989playlist.html">
+            <img src="..\Tunescape Images\1989Cover.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>1989 (Taylor's Version)</h4>
+            <p>Taylor Swift</p></a>
+          </div>
+
+          <div class="item">
+            <img src="..\Tunescape Images\ManOnTheMoonII.jpg" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Man on the Moon II: The Legend of Mr. Rager</h4>
+            <p>Kid Cudi</p>
+          </div>
+
+          <div class="item">
+            <img src="..\Tunescape Images\ShockwaveAlbum.jpg" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Shockwave</h4>
+            <p>Marshmello</p>
+          </div>
+
+          <div class="item">
+            <img src="..\Tunescape Images\SOURAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Sour</h4>
+            <p>Olivia Rodrigo</p>
+          </div>
+		  
+          <div class="item">
+            <img src="..\Tunescape Images\Thats_What_They_All_Say.jpg" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Thats What They All Say</h4>
+            <p>Jack Harlow</p>
+          </div>
+
+          <div class="item">
+            <img src="..\Tunescape Images\PositionsAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Positions</h4>
+            <p>Ariana Grande</p>
+          </div>
+
+          <div class="item">
+            <img src="..\Tunescape Images\HollywoodsBleeding.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Hollywood's Bleeding</h4>
+            <p>Post Malone</p>
+          </div>
+		  
+		  <div class="item">
+            <img src="..\Tunescape Images\DivideAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>÷</h4>
+            <p>Ed Sheeran</p>
+          </div>
+        </div>
+      </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <div class="tunescape-playlists">
+		<div style="display: flex; align-items: center; justify-content: space-between; font-size: 26.4px; margin-bottom:-5.5px;" class="h4">
+        <h2>Trending Playlists</h2>
+			<div style="margin-right: 80.3px; margin-top:11px;" class="btn_s">
+				<i id="left_scrolly" class="bi bi-arrow-left-short"></i>
+				<i id="right_scrolly" class="bi bi-arrow-right-short"></i>
+			</div>
+		</div>
+
+        <div class="trendinglist">
+		
+		<div class="item">
+            <img src="..\Tunescape Images\LegendsNeverDieAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Legends Never Die</h4>
+            <p>Juice WRLD</p>
+          </div>
+		
+		<div class="item">
+            <img src="..\Tunescape Images\ToPimpaButterflyAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>To Pimp a Butterfly</h4>
+            <p>Kendrick Lamar</p>
+          </div>
+		
+		<div class="item">
+            <img src="..\Tunescape Images\EternalAtakeAlbum.jpg" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Eternal Atake</h4>
+            <p>Lil Uzi Vert</p>
+          </div>
+		  
+		  
+		  
+		  
+          <div class="item">
+            <img src="..\Tunescape Images\BrightestBlueAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Brightest Blue</h4>
+            <p>Ellie Goulding</p>
+          </div>
+
+          
+
+          
+
+          <div class="item">
+            <img src="..\Tunescape Images\LemonadeAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Lemonade</h4>
+            <p>Beyoncé</p>
+          </div>
+
+		<div class="item">
+            <img src="..\Tunescape Images\AHeadFullofDreamsAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>A Head Full of Dreams</h4>
+            <p>Coldplay</p>
+          </div>
+
+          <div class="item">
+            <img src="..\Tunescape Images\ForAllTheDogsAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>For All the Dogs</h4>
+            <p>Drake</p>
+          </div>
+
+          <div class="item">
+            <img src="..\Tunescape Images\SmileAlbum.png" />
+            <div class="play">
+              <i class="bi playListPlay bi-play-circle-fill" id="1"><div class="playhole"></div></i>
+            </div>
+            <h4>Smile</h4>
+            <p>Katy Perry</p>
+          </div>
+
+          
+        </div>
+      </div>
+	  
+	  
+	  
+	  
+</div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+ 
+ 
+ 
+ 
+ </div>
+ 
+ 
+ 
+ 
+ 
+ <div class="master_play">
+	<div class="wave">
+		<div class="wave1"></div>
+		<div class="wave1"></div>
+		<div class="wave1"></div>
+	</div>
+	<img src="..\Tunescape Images\1989Cover.png" alt="Taylor">
+	<h5>Love Story <br>
+		<div class="subtitle">Taylor Swift</div>
+	</h5>
+	<div class="icon">
+		<i class="bi bi-skip-start-fill"></i>
+		<i class="bi bi-play-fill"></i>
+		<i class="bi bi-skip-end-fill"></i>
+	</div>
+	<span id="currentStart">0:00</span>
+	<div class="bar">
+		<input type="range" id="seek" min="0" value="0" max="100">
+		<div class="bar2" id="bar2"></div>
+		<div class="dot"></div>
+	</div>
+	<span id="currentEnd">0:00</span>
+	
+	<div class="vol">
+		<i class="bi bi-volume-down-fill"></i>
+		<input type="range" id="vol" min="0" value="30" max="100">
+		<div class="vol_bar"></div>
+		<div class="dot" id="vol_dot"></div>
+	</div>
+	
+ </div>
+ 
+ 
+ 
+</header>
+
+<script src="../JavaScript Folder/Tunescape.js"></script>
+
+</body>
+</html>
+
+
+
+
+
